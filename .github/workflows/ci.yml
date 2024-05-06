@@ -13,4 +13,4 @@ jobs:
           java-version: 19
           distribution: temurin
       - name: Build
-        run: ./gradlew clean build
+        run: ./gradlew build
