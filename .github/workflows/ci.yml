@@ -10,6 +10,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with: # Actions parameters (action name omitted)
-          java-version: 15
+          java-version: 19
+          distribution: temurin
       - name: Build
         run: ./gradlew clean build
